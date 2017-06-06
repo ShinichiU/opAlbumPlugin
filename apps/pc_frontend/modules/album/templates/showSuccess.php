@@ -27,7 +27,7 @@
 </tr>
 <tr>
 <th><?php echo __('Description') ?></th>
-<td colspan="2"><?php echo $album->getBody() ?></td>
+<td colspan="2"><?php echo nl2br($album->getBody()) ?></td>
 </tr>
 <tr>
 <th><?php echo __('Public flag') ?></th>
