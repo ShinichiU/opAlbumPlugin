@@ -24,7 +24,7 @@
 </tr>
 <tr>
 <th><?php echo __('Description') ?></th>
-<td colspan="2"><?php echo $album->getBody() ?></td>
+<td colspan="2"><?php echo op_truncate($album->getBody(), 36, '', 3) ?></td>
 </tr>
 <tr>
 <th><?php echo __('Public flag') ?></th>
